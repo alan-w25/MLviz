@@ -8,9 +8,19 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      primary: '#1E293B', // Dark background color
-      secondary: '#F8FAFC', // Light text color
-      accent: '#4F46E5', 
+      colors: {
+        mechanical: {
+          dark: '#141619', // light color
+          medium: '#2c2e3a', // medium color
+          darkblue: '#050a44', // dark color
+          accentblue: '#0a21c0', // accent color
+          light: '#b3b4bd', // neutral color
+        }
+      }, 
+      fontFamily : {
+        inter: ['Inter', 'sans-serif']
+      }
+
     },
   },
   plugins: [],

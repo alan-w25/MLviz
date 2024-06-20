@@ -18,7 +18,7 @@ const date_map = {
 
 const Footer = () => (
 
-    <footer className = "text-center p-4">
+    <footer className = " font-Inter text-center p-4">
         <p>Copyright &copy; 
             
             <Link href="https://www.alan-wu.me" className="hover:underline"> Alan Wu </Link>

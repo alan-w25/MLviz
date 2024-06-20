@@ -9,7 +9,7 @@ interface MainLayoutProps {
 
 const HomeLayout = ({children}:MainLayoutProps) => {
     return(
-        <div>
+        <div className="bg-lightPurple">
             <HomeHeader />
             <main>
                 {children}
